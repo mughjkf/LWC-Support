@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support Center - Language Word Contest</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --secondary-color: #1e40af;
+            --text-color: #334155;
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: #64748b;
+        }
+
+        .card {
+            background: var(--card-bg);
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 10px;
+            color: var(--secondary-color);
+        }
+
+        .faq-item {
+            margin-bottom: 20px;
+        }
+
+        .faq-question {
+            font-weight: bold;
+            color: #1e293b;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .contact-info {
+            list-style: none;
+            padding: 0;
+        }
+
+        .contact-info li {
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .btn-email {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: white;
+            padding: 12px 24px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.3s ease;
+            margin-top: 10px;
+        }
+
+        .btn-email:hover {
+            background-color: var(--secondary-color);
+        }
+
+        .links {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .links a {
+            color: var(--primary-color);
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 0.9rem;
+        }
+
+        .links a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 60px;
+            font-size: 0.85rem;
+            color: #94a3b8;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                margin: 20px auto;
+            }
+            h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Language Word Contest</h1>
+            <p class="subtitle">Support & Contact Center</p>
+        </header>
+
+        <section class="card">
+            <h2>💡 Frequently Asked Questions</h2>
+            
+            <div class="faq-item">
+                <span class="faq-question">1. I forgot my password. How can I reset it?</span>
+                <p>Currently, password resets are handled manually for security. Please contact us via email, and we will guide you through the process.</p>
+            </div>
+
+            <div class="faq-item">
+                <span class="faq-question">2. My score didn't update on the leaderboard. Why?</span>
+                <p>Leaderboards sync every few minutes. Please ensure you have a stable internet connection and try restarting the app.</p>
+            </div>
+
+            <div class="faq-item">
+                <span class="faq-question">3. I found a typo or an incorrect translation.</span>
+                <p>Please report the word and the language pair to our support email so we can correct it in the next update.</p>
+            </div>
+
+            <div class="faq-item">
+                <span class="faq-question">4. How do I delete my account?</span>
+                <p>To delete your account and all associated data, please send an email from your registered address with the subject "Account Deletion."</p>
+            </div>
+        </section>
+
+        <section class="card">
+            <h2>📩 Contact Us</h2>
+            <p>If your question isn't answered above, feel free to reach out to us directly. We usually respond within 24-48 hours.</p>
+            
+            <ul class="contact-info">
+                <li><strong>Email:</strong>&nbsp;mustafadumlupinr@gmail.com</li>
+                <li><strong>Hours:</strong>&nbsp;Mon - Fri, 09:00 - 18:00 (GMT+3)</li>
+            </ul>
+
+            <a href="mailto:mustafadumlupinr@gmail.com" class="btn-email">Send an Email</a>
+        </section>
+
+        <div class="links">
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+        </div>
+
+        <footer>
+            &copy; 2026 Language Word Contest. Dedicated to making language learning fun.
+        </footer>
+    </div>
+
+</body>
+</html>
